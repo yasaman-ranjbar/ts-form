@@ -1,0 +1,28 @@
+.list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.form-wrapper {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input , .form textarea{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.form button {
+    display: block;
+}
